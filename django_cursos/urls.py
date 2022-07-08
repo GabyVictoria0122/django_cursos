@@ -20,7 +20,7 @@ from . import  settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('cursos/', include('cursos.urls')),
+    path('', include('cursos.urls')),
 
 ]
 
